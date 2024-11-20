@@ -1,0 +1,36 @@
+body{
+  background-color: #1a1a1d;
+  font-family: "Inter", sans-serif;
+  color: aliceblue;
+}
+.asterisk{
+  font-size: 250px;
+  color: #c3073f;
+}
+.ff-kade-mono{
+  font-family: "Kade Mono", monospace;
+}
+
+.git-btn{
+  background-color: #c3073f;
+  color: aliceblue;
+  border: 0;
+  transition: ease 0.2s;
+}
+.git-btn:hover{
+  transform: scale(105%);
+}
+.name{
+  font-size: 110px;
+}
+.card{
+  background-color: #1a1a1d;
+  color: aliceblue;
+  border: 2pt solid aliceblue;
+}
+img{
+  height: 250pt;
+}
+a{
+  color: #c3073f;
+}
