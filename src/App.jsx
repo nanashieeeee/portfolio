@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <>
+      <Router> {/* Wrap everything in Router */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+    </Router>
     </>
   );
 }
