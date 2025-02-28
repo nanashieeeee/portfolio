@@ -1,0 +1,63 @@
+.aside{
+  position: sticky;
+  top: 8rem;
+  height: 80vh;
+}
+.profile-pic{
+  height: 300px;
+  width: 300px;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(50%);
+  transition: all 1.5s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+#introduction{
+  min-height: 80vh;
+}
+
+.color-scarlet{
+  color: #c3073f;
+}
+.link:hover{
+  color: #c3073f !important;
+}
+
+.center-on-sm{
+  text-align: center;
+}
+
+#aboutSect{
+  overflow-x: hidden ;
+}
+
+/* BREAKPOINTS */
+
+/* small */
+@media (min-width: 576px) {
+  
+}
+
+/* medium */
+@media (min-width: 768px) {
+  
+}
+
+/* large */
+@media (min-width: 992px) {
+  .center-on-sm{
+    text-align: start;
+  }
+  #aboutSect{
+    overflow-x: visible !important;
+  }
+
+}

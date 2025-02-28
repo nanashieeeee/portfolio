@@ -1,0 +1,101 @@
+.hero-btn{
+  width: 20rem;
+  font-size: 1.2rem;
+  border: 1px solid aliceblue;
+  border-radius: 0;
+  color: aliceblue;
+  /* transition: all .5s none; */
+}
+
+.hero-btn{
+  border: 1px solid #c3073f;
+  color: #c3073f;
+  transition: all 0.2s ease;
+}
+.hero-btn:hover{
+  transform: scale(1.05);
+  color: aliceblue;
+  background-color: #c3073f;
+}
+.home-container{
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;  /* relative on lg */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social:hover{
+  color: #c3073f;
+}
+
+.home-image-container{
+  position: absolute;
+  bottom: -21rem;
+  right: 4rem;
+}
+
+.home-image-container img{
+  filter: invert(1);
+  width: 40rem;
+  height: auto;
+}
+/* //////////// */
+
+.home-image-container-sm{
+  position: absolute;
+  top: 101%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Moves it back by half of its own width & height */
+  
+}
+
+.home-image-container-sm img{
+  filter: invert(1);
+  width: 15rem;
+  height: auto;
+}
+
+.center-on-sm{
+  text-align: center;
+}
+
+.name{
+  font-size: 5rem;
+}
+.home-container p{
+  font-size: 1.25rem;
+}
+
+/* BREAKPOINTS */
+
+/* small */
+@media (min-width: 576px) {
+  
+}
+
+/* medium */
+@media (min-width: 768px) {
+  
+}
+
+/* large */
+@media (min-width: 992px) {
+  .center-on-sm{
+    text-align: start;
+  }
+  .name{
+    font-size: 10rem;
+  }
+  .home-container{
+    align-items: start;
+  }
+  .home-container p{
+    font-size: 1.75rem;
+  }
+
+}

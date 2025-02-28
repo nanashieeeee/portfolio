@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #1a1a1d;
+  font-family: "Inter", sans-serif;
+  color: aliceblue;
+}
+.ff-kade-mono {
+  font-family: "Kade Mono", monospace;
+}
+.ff-grenze {
+  font-family: "Grenze Gotisch", serif;
+}
+
+.navbar {
+  background-color: rgba(26, 26, 29, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.color-scarlet {
+  color: #c3073f;
+}
+
+.navbar-brand:hover {
+  color: #c3073f !important;
+}
+
+.nav-link:hover {
+  color: #c3073f !important;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-toggler:focus {
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.form-container {
+  width: 75%;
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: aliceblue !important;
+  border-radius: 0;
+  transition: all .2s ease-out;
+}
+
+.form-control:focus{
+  box-shadow: 0 0 0 0.2rem #c3073f;
+  outline: none;
+  border: none;
+}
+
+.form-container button{
+  border: 1px solid aliceblue;
+  color: aliceblue;
+}
+.form-container button:hover{
+  border: 1px solid #c3073f;
+  color: #c3073f;
+}
+
+.form-container button:focus{
+  border: 1px solid #c3073f;
+  color: #c3073f;
+}
+
+
+#messageBox {
+  max-height: 20vh;
+  min-height: 10vh;
+}
+
+/* BREAKPOINTS */
+
+/* small */
+@media (min-width: 576px) {
+}
+
+/* medium */
+@media (min-width: 768px) {
+}
+
+/* large */
+@media (min-width: 992px) {
+  .form-container {
+    width: 30%;
+  }
+}
