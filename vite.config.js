@@ -3,10 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: "", // ✅ Leave this as an empty string
   build: {
-    rollupOptions: {
-      input: "index.html",  // Force Vite to use index.html
-    },
+    outDir: "dist", // ✅ Ensure this is correct
+    assetsDir: "assets", // ✅ Ensure assets are in an "assets" folder
   },
 })
