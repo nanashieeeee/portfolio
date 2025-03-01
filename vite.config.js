@@ -3,13 +3,13 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // Use relative paths
+  base: "", // Ensure relative paths are used
   build: {
     outDir: "dist",
     assetsDir: "assets",
-    emptyOutDir: true, // Ensure old files are removed
+    emptyOutDir: true,
     rollupOptions: {
-      input: "index.html", // Force Vite to use index.html
+      input: "index.html", // Explicitly define the entry file
     },
   },
-})
+});
