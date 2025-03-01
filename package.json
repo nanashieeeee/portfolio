@@ -1,9 +1,7 @@
 {
   "name": "portfolio",
-  "homepage": "https://nanashieeeee.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
