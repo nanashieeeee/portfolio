@@ -20,20 +20,20 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="ri-menu-line text-light fs-1 burger"></i>
+          <i className="ri-menu-line text-light fs-1 burger"></i>
         </button>
         <div className="collapse navbar-collapse py-3 py-lg-0" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <Link className="nav-link text-light" to="/">
+            <Link className="nav-link nav-home text-light" to="/">
               Home
             </Link>
-            <Link className="nav-link text-light" to="/about">
+            <Link className="nav-link nav-about text-light" to="/about">
               About
             </Link>
-            <Link className="nav-link text-light" to="/projects">
+            <Link className="nav-link nav-projects text-light" to="/projects">
               Projects
             </Link>
-            <Link className="nav-link text-light" to="/contact">
+            <Link className="nav-link nav-contact text-light" to="/contact">
               Contact
             </Link>
           </div>

@@ -39,6 +39,11 @@
   overflow-x: hidden ;
 }
 
+#introduction, #skills, #references{
+  scroll-margin-top: 7rem;
+}
+
+
 /* BREAKPOINTS */
 
 /* small */

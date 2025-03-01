@@ -32,28 +32,46 @@ function About() {
                 <h1 className="ff-grenze py-3 display-3 fw-bold">About me</h1>
                 <ul>
                   <li className="py-2">
-                    <a
-                      href="#introduction"
-                      className="text-decoration-none text-light link"
+                    <button
+                      onClick={() => {
+                        document
+                          .getElementById("introduction")
+                          ?.scrollIntoView({
+                            behavior: "smooth",
+                          });
+                      }}
+                      className="text-decoration-none text-light link btn btn-link p-0"
                     >
                       Introduction
-                    </a>
+                    </button>
                   </li>
                   <li className="py-2">
-                    <a
-                      href="#skills"
-                      className="text-decoration-none text-light link"
+                    <button
+                      onClick={() => {
+                        document
+                          .getElementById("skills")
+                          ?.scrollIntoView({
+                            behavior: "smooth",
+                          });
+                      }}
+                      className="text-decoration-none text-light link btn btn-link p-0"
                     >
                       Skills
-                    </a>
+                    </button>
                   </li>
                   <li className="py-2">
-                    <a
-                      href="#references"
-                      className="text-decoration-none text-light link"
+                    <button
+                      onClick={() => {
+                        document
+                          .getElementById("references")
+                          ?.scrollIntoView({
+                            behavior: "smooth",
+                          });
+                      }}
+                      className="text-decoration-none text-light link btn btn-link p-0"
                     >
                       References
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </div>
@@ -75,7 +93,10 @@ function About() {
             </div>
           </div>
 
-          <div className="col-12 col-lg-8 py-5 px-4 px-lg-5 aboutSect" id="aboutSect">
+          <div
+            className="col-12 col-lg-8 py-5 px-4 px-lg-5 aboutSect"
+            id="aboutSect"
+          >
             <section id="introduction">
               <div className="d-block d-lg-flex gap-5 hidden">
                 <div className="d-flex justify-content-center">
