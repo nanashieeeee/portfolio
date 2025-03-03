@@ -43,7 +43,7 @@ function Home() {
         <img src={BassClef} alt="Bass Clef" draggable="false" />
       </div>
       <div className="home-image-container-sm d-block d-lg-none">
-        <img src={BassClef} alt="Bass Clef" draggable="false" />
+        <img src={BassClef} alt="Bass Clef" draggable="false" loading="lazy"/>
       </div>
     </div>
   );

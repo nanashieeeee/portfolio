@@ -8,20 +8,21 @@ import "../css/Project-styles.css";
 function Project() {
   const navigate = useNavigate();
   return (
-    <div className="container" id="projectContainer">
-      <div className="py-5">
+    <div className="container px-4 px-lg-0" id="projectContainer">
+      <div className="py-lg-5 py-2">
         <h1 className="ff-grenze display-2 fw-semibold color-scarlet">
           Projects
         </h1>
       </div>
 
-      <div className="row py-5">
-        <div className="col-12 col-lg-6">
+      <div className="row py-lg-5 py-2">
+        <div className="col-12 col-lg-6 d-flex align-items-center py-4 py-lg-0">
           <img
             src={sjdhShowcase}
             alt="sjdh-ims-showcase"
-            className="border"
-            style={{ height: "350px" }}
+            className="border showcase-img"
+            loading="lazy"
+            
           />
         </div>
         <div className="col-12 col-lg-6 d-flex align-items-center">
@@ -41,9 +42,9 @@ function Project() {
             </p>
             <button
               className="btn project-button"
-              onClick={() => navigate("/sjdh")}
+              onClick={() => window.open("https://sjdisctricthospital-ims.com/login.php", "_blank")}
             >
-              Learn More
+              Visit Page
             </button>
           </div>
         </div>
@@ -63,17 +64,18 @@ function Project() {
               impedit repudiandae consequatur molestiae repellendus corporis
               provident?
             </p>
-            <button className="btn project-button">Learn More</button>
+            <button className="btn project-button">Visit Page</button>
           </div>
         </div>
 
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6 d-flex align-items-center py-4 py-lg-0">
           
           <img
             src={hoodEpcShowcase}
             alt="hood-epc-showcase"
-            className="border"
-            style={{ height: "350px" }}
+            className="border showcase-img"
+            loading="lazy"
+            
           />
         </div>
       </div>
