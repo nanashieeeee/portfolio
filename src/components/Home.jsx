@@ -25,16 +25,16 @@ function Home() {
         </button>
       </div>
       <div className="d-flex align-items-center gap-3">
-        <a href="" className="text-decoration-none text-light">
+        <a href="https://www.facebook.com/nanashiexxx/" target="_blank" className="text-decoration-none text-light">
           <i className="ri-facebook-box-fill display-3 social"></i>
         </a>
-        <a href="" className="text-decoration-none text-light">
+        <a href="https://www.instagram.com/ssm.ejay/" target="_blank" className="text-decoration-none text-light">
           <i className="ri-instagram-fill display-3 social"></i>
         </a>
         <a href="" className="text-decoration-none text-light">
           <i className="ri-linkedin-box-fill display-3 social"></i>
         </a>
-        <a href="" className="text-decoration-none text-light">
+        <a href="https://github.com/nanashieeeee" target="_blank" className="text-decoration-none text-light">
           <i className="ri-github-fill display-3 social"></i>
         </a>
       </div>

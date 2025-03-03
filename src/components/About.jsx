@@ -77,16 +77,16 @@ function About() {
               </div>
 
               <div className="mt-auto d-flex gap-3 justify-content-center">
-                <a href="" className="text-decoration-none text-light">
+                <a href="https://www.facebook.com/nanashiexxx/"  target="_blank" className="text-decoration-none text-light">
                   <i className="ri-facebook-box-fill display-5 social"></i>
                 </a>
-                <a href="" className="text-decoration-none text-light">
+                <a href="https://www.instagram.com/ssm.ejay/" target="_blank" className="text-decoration-none text-light">
                   <i className="ri-instagram-fill display-5 social"></i>
                 </a>
                 <a href="" className="text-decoration-none text-light">
                   <i className="ri-linkedin-box-fill display-5 social"></i>
                 </a>
-                <a href="" className="text-decoration-none text-light">
+                <a href="https://github.com/nanashieeeee" target="_blank" className="text-decoration-none text-light">
                   <i className="ri-github-fill display-5 social"></i>
                 </a>
               </div>
